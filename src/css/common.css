@@ -16,3 +16,33 @@ img {
   display: block;
   max-width: 100%;
 }
+
+button {
+  border-radius: 8px;
+  border-style: none;
+  color: #fd0202;
+  cursor: pointer;
+  height: 40px;
+  padding: 10px 16px;
+}
+
+button:hover {
+  color: #070707;
+}
+
+a {
+  color: #212121;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f90303;
+}
+ul {
+  list-style: none;
+}
+
+.timer {
+  display: flex;
+  gap: 10px;
+}
